@@ -1,0 +1,54 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "limermor_head",
+    "enableBody": true,
+    "textureBody": "limermor_body",
+    "enableLeggings": true,
+    "textureLeggings": "limermor_leggings",
+    "enableBoots": true,
+    "textureBoots": "limermor_boots",
+    "onBootsTick": {
+      "name": "CheckForSlimeArmor"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:BadItems"
+    },
+    "armorTextureFile": "limermor",
+    "helmetName": "Slime Armor Helmet",
+    "bodyName": "Slime Armor Body",
+    "leggingsName": "Slime Armor Leggings",
+    "bootsName": "Slime Armor Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 10,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": "block.slime.place"
+    },
+    "repairItems": [
+      {
+        "value": "Items.SLIME_BALL"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_fv": 6,
+  "_type": "fluid",
+  "definition": {
+    "name": "Drinkiblelava",
+    "textureStill": "ava_till",
+    "textureFlowing": "low_ava_2",
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:BadItems"
+    },
+    "spawnWorldTypes": []
+  }
+}

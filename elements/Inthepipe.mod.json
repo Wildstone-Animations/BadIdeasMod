@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "inthepipe",
+    "name": "Inthepipe",
+    "description": "Mario Party",
+    "creativeTab": {
+      "value": "CUSTOM:BadItems"
+    },
+    "music": {
+      "value": "CUSTOM:in_the_pipe"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

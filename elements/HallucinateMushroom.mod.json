@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "brown_mushroom",
+    "customModelName": "Normal",
+    "name": "Brown Mushroom'",
+    "creativeTab": {
+      "value": "CUSTOM:BadItems"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 0,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "YEsFoodEaten"
+    }
+  }
+}

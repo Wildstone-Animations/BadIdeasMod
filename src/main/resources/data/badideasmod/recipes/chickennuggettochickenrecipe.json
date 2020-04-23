@@ -1,0 +1,42 @@
+{
+  "group": "badideasmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "badideasmod:chickennuggets"
+    },
+    "1": {
+      "item": "badideasmod:chickennuggets"
+    },
+    "2": {
+      "item": "badideasmod:chickennuggets"
+    },
+    "3": {
+      "item": "badideasmod:chickennuggets"
+    },
+    "4": {
+      "item": "badideasmod:chickennuggets"
+    },
+    "5": {
+      "item": "badideasmod:chickennuggets"
+    },
+    "6": {
+      "item": "badideasmod:chickennuggets"
+    },
+    "7": {
+      "item": "badideasmod:chickennuggets"
+    },
+    "8": {
+      "item": "badideasmod:chickennuggets"
+    }
+  },
+  "result": {
+    "item": "minecraft:cooked_chicken",
+    "count": 1
+  }
+}

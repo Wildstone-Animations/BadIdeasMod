@@ -1,0 +1,11 @@
+{
+  "group": "badideasmod",
+  "type": "minecraft:smoking",
+  "experience": 1,
+  "ingredient": {
+    "item": "badideasmod:rawchickenblock"
+  },
+  "result": {
+    "item": "badideasmod:cookedchickenblock"
+  }
+}

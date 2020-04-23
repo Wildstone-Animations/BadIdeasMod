@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "badideasmod:blocks/ooked_eef_lock",
+    "up": "badideasmod:blocks/ooked_eef_lock",
+    "north": "badideasmod:blocks/ooked_eef_lock",
+    "east": "badideasmod:blocks/ooked_eef_lock",
+    "south": "badideasmod:blocks/ooked_eef_lock",
+    "west": "badideasmod:blocks/ooked_eef_lock",
+    "particle": "badideasmod:blocks/ooked_eef_lock"
+  }
+}

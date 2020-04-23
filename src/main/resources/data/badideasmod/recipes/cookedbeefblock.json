@@ -1,0 +1,11 @@
+{
+  "group": "badideasmod",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "ingredient": {
+    "item": "badideasmod:rawbeefblock"
+  },
+  "result": {
+    "item": "badideasmod:cookedbeefblock2"
+  }
+}

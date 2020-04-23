@@ -1,0 +1,47 @@
+{
+  "skillcrane": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "badideasmod:pongebob_quarepants_-__-_ombummel",
+        "stream": true
+      }
+    ]
+  },
+  "choice": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "badideasmod:he_tanley_arable_-_hoice",
+        "stream": true
+      }
+    ]
+  },
+  "in_the_pipe": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "badideasmod:ario_arty_2_oundtrack_n_he_ipe_1080p",
+        "stream": true
+      }
+    ]
+  },
+  "timed_run": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "badideasmod:oing_ll_ut_in_the_ystery_ouse_-_uper_ario_3_orld",
+        "stream": false
+      }
+    ]
+  },
+  "this_way_that": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "badideasmod:ario_arty_2_usic_-_his_ay_hat",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Is This Milk",
+    "achievementDescription": "You drank what is supposedly milk! even I dont know what  it is",
+    "achievementIcon": {
+      "value": "Items.MILK_BUCKET"
+    },
+    "background": "avaottle.png",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"31\" y=\"20\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:LavaMilk</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 351,
+    "height": 339,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "What do you want to listen to?",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "What do you want to listen to?",
+          "x": 276,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Track 1",
+          "onClick": {
+            "name": "Playmusic"
+          },
+          "width": 140,
+          "height": 40,
+          "name": "Track 1",
+          "x": 262,
+          "y": 124
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Cat",
+          "onClick": {
+            "name": "PlayMusic2"
+          },
+          "width": 140,
+          "height": 40,
+          "name": "Cat",
+          "x": 263,
+          "y": 172
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Chirp",
+          "onClick": {
+            "name": "PlayMusic3"
+          },
+          "width": 138,
+          "height": 40,
+          "name": "Chirp",
+          "x": 262,
+          "y": 217
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Skill Crane",
+          "onClick": {
+            "name": "PlayMusic4"
+          },
+          "width": 136,
+          "height": 40,
+          "name": "Skill Crane",
+          "x": 263,
+          "y": 262
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "In the Pipe",
+          "onClick": {
+            "name": "PlayMusic5"
+          },
+          "width": 137,
+          "height": 40,
+          "name": "In the Pipe",
+          "x": 438,
+          "y": 124
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "To Stop Music type /stopsound @a",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "To Stop Music type /stopsound @a",
+          "x": 256,
+          "y": 314
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "In Chat",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "In Chat",
+          "x": 259,
+          "y": 341
+        }
+      }
+    ]
+  }
+}

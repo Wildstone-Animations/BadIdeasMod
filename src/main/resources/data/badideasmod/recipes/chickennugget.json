@@ -1,0 +1,13 @@
+{
+  "group": "badideasmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_chicken"
+    }
+  ],
+  "result": {
+    "item": "badideasmod:chickennuggets",
+    "count": 9
+  }
+}

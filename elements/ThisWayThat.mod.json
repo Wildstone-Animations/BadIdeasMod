@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "thiswaythat",
+    "name": "This Way That",
+    "description": "mario party",
+    "creativeTab": {
+      "value": "CUSTOM:BadItems"
+    },
+    "music": {
+      "value": "CUSTOM:this_way_that"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

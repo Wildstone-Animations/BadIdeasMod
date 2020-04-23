@@ -1,0 +1,51 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "rass_rmor_head",
+    "enableBody": true,
+    "textureBody": "rass_rmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "rass_rmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "rass_rmor_boots",
+    "creativeTab": {
+      "value": "CUSTOM:BadItems"
+    },
+    "armorTextureFile": "rass_rmor",
+    "helmetName": "Grass Armor Helmet",
+    "bodyName": "Grass Armor Body",
+    "leggingsName": "Grass Armor Leggings",
+    "bootsName": "Grass Armor Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 10,
+    "damageValueHelmet": 2,
+    "damageValueBody": 3,
+    "damageValueLeggings": 3,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "Blocks.TALLGRASS#1"
+      }
+    ]
+  }
+}

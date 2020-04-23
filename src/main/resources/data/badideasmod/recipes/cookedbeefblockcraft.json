@@ -1,0 +1,42 @@
+{
+  "group": "badideasmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_beef"
+    },
+    "1": {
+      "item": "minecraft:cooked_beef"
+    },
+    "2": {
+      "item": "minecraft:cooked_beef"
+    },
+    "3": {
+      "item": "minecraft:cooked_beef"
+    },
+    "4": {
+      "item": "minecraft:cooked_beef"
+    },
+    "5": {
+      "item": "minecraft:cooked_beef"
+    },
+    "6": {
+      "item": "minecraft:cooked_beef"
+    },
+    "7": {
+      "item": "minecraft:cooked_beef"
+    },
+    "8": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "result": {
+    "item": "badideasmod:cookedbeefblock2",
+    "count": 1
+  }
+}

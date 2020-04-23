@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "skillcranedisc",
+    "name": " SKILL CRANE",
+    "description": "oh yeah woo yeah",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:skillcrane"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

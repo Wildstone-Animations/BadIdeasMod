@@ -1,0 +1,20 @@
+{
+  "_fv": 6,
+  "_type": "potion",
+  "definition": {
+    "name": "Bottleof Lava",
+    "effectName": "Bottleof Lava",
+    "icon": "avaottle.png",
+    "color": {
+      "value": -26368,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "curativeItems": [],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}

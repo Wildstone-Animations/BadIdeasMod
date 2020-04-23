@@ -1,0 +1,97 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "brown_mushroom",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Crop",
+    "growapableMaxHeight": 3,
+    "name": "Hallucinate Mushroom Plant",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": "CUSTOM:HallucinateMushroom"
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 10,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "ocean"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "desert"
+      },
+      {
+        "value": "mountains"
+      },
+      {
+        "value": "river"
+      },
+      {
+        "value": "frozen_ocean"
+      },
+      {
+        "value": "mutated_extreme_hills_with_trees"
+      },
+      {
+        "value": "mutated_savanna"
+      },
+      {
+        "value": "mutated_savanna_rock"
+      },
+      {
+        "value": "mutated_mesa"
+      },
+      {
+        "value": "mutated_mesa_rock"
+      },
+      {
+        "value": "mutated_mesa_clear_rock"
+      },
+      {
+        "value": "bamboo_jungle"
+      },
+      {
+        "value": "bamboo_jungle_hills"
+      },
+      {
+        "value": "small_end_islands"
+      },
+      {
+        "value": "end_midlands"
+      },
+      {
+        "value": "end_highlands"
+      },
+      {
+        "value": "end_barrens"
+      },
+      {
+        "value": "void"
+      }
+    ]
+  }
+}

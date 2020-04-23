@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "badideasmod:blocks/aw_eef_lock",
+    "up": "badideasmod:blocks/aw_eef_lock",
+    "north": "badideasmod:blocks/aw_eef_lock",
+    "east": "badideasmod:blocks/aw_eef_lock",
+    "south": "badideasmod:blocks/aw_eef_lock",
+    "west": "badideasmod:blocks/aw_eef_lock",
+    "particle": "badideasmod:blocks/aw_eef_lock"
+  }
+}

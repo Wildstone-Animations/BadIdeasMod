@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "badideasmod:blocks/ooked_utton_lock",
+    "up": "badideasmod:blocks/ooked_utton_lock",
+    "north": "badideasmod:blocks/ooked_utton_lock",
+    "east": "badideasmod:blocks/ooked_utton_lock",
+    "south": "badideasmod:blocks/ooked_utton_lock",
+    "west": "badideasmod:blocks/ooked_utton_lock",
+    "particle": "badideasmod:blocks/ooked_utton_lock"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "badideasmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "1": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "2": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "3": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "4": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "5": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "6": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "7": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "8": {
+      "item": "minecraft:cooked_mutton"
+    }
+  },
+  "result": {
+    "item": "badideasmod:cookedmuttonblock",
+    "count": 1
+  }
+}

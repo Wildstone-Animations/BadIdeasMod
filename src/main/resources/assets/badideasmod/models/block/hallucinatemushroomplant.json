@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "badideasmod:blocks/brown_mushroom",
+    "particle": "badideasmod:blocks/brown_mushroom"
+  }
+}

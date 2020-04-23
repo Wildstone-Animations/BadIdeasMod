@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "choice",
+    "name": "Choice",
+    "description": "The Best Part of Being a Real Person",
+    "creativeTab": {
+      "value": "CUSTOM:BadItems"
+    },
+    "music": {
+      "value": "CUSTOM:choice"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,868 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "YEsFoodEaten",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HallucinateMushroom",
+      "type": "food",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HallucinateMushroomPlant",
+      "type": "plant",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BadItems",
+      "type": "tab",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SlimeArmor",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CheckForSlimeArmor",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RawChickenBlockRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookedChickenBlockRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookedChickenBlockSmokerRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Water",
+      "type": "fuel",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SKILLCRANE",
+      "type": "musicdisc",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookedMuttonblocksmelt",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RawBeefBlockCraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RawMuttonBlockCraft",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookedChickenBlockCraft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookedBeefBlockcraft",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookedMuttonBlockCraft",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LavaMilk",
+      "type": "fluid",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Drinkiblelava",
+      "type": "fluid",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BottleofLava",
+      "type": "potion",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Isthismilk",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BEEMOVIE",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReversePickaxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseGoldPickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronStickPickaxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StoneStickPickaxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DiamondHandeledWoodenSword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GoldHandeledWoodenSword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "IronHandeledWoodenSword",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StoneHandeledWoodenSword",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChickenNuggets",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThisWayThat",
+      "type": "musicdisc",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Inthepipe",
+      "type": "musicdisc",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Choice",
+      "type": "musicdisc",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseDiamondpick",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseGoldPick",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ReverseIronPick",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Reversestonepick",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Reversediamondsword",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Reversedgoldsword",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Reversedironsword",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Reversedstonesword",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChickenNugget",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChickenNuggettoChickenRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RawChickenBlock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookedChickenBlock",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RawBeefBlock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookedBeefBlock2",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RawMuttonBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookedMuttonBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookedBeefBlock",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SlimeBione",
+      "type": "biome",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Playmusic",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayMusic2",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jukebox",
+      "type": "gui",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MP3MenueRightClickedInAir",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MP3Player",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlayMusic3",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayMusic4",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayMusic5",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "REVERSEBIOME",
+      "type": "biome",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CoalArmor",
+      "type": "armor",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "GrassArmor",
+      "type": "armor",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CreeperArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreeperArmor",
+      "type": "armor",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EXPLODE",
+      "type": "keybind",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DirtStairs",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SandStairs",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "skillcrane",
+      "file": "pongebob_quarepants_-__-_ombummel",
+      "category": "record"
+    },
+    {
+      "name": "choice",
+      "file": "he_tanley_arable_-_hoice",
+      "category": "record"
+    },
+    {
+      "name": "in_the_pipe",
+      "file": "ario_arty_2_oundtrack_n_he_ipe_1080p",
+      "category": "record"
+    },
+    {
+      "name": "timed_run",
+      "file": "oing_ll_ut_in_the_ystery_ouse_-_uper_ario_3_orld",
+      "category": "master"
+    },
+    {
+      "name": "this_way_that",
+      "file": "ario_arty_2_usic_-_his_ay_hat",
+      "category": "music"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.badideasmod.grassarmorhelmet": "Grass Armor Helmet",
+      "item.badideasmod.skillcrane": " SKILL CRANE",
+      "item.badideasmod.drinkiblelava_bucket": "Drinkiblelava Bucket",
+      "item.badideasmod.lavamilk_bucket": "LavaMilk Bucket",
+      "advancements.isthismilk.title": "Is This Milk",
+      "item.badideasmod.ironhandeledwoodensword": "Iron Handeled Wooden Sword",
+      "item.minecraft.splash_potion.effect.bottleoflava": "Splash Bottleof Lava",
+      "item.badideasmod.inthepipe.desc": "Mario Party",
+      "item.badideasmod.grassarmorboots": "Grass Armor Boots",
+      "item.badideasmod.goldhandeledwoodensword": "Gold Handeled Wooden Sword",
+      "item.badideasmod.reversegoldpickaxe": "Gold Stick Pickaxe",
+      "block.badideasmod.dirtstairs": "Dirt Stairs",
+      "block.badideasmod.sandstairs": "Sand Stairs",
+      "item.badideasmod.creeperarmorboots": "Creeper Armor Boots",
+      "block.badideasmod.cookedmuttonblock": "Cooked Mutton Block",
+      "item.badideasmod.slimearmorhelmet": "Slime Armor Helmet",
+      "item.badideasmod.stonestickpickaxe": "Stone Stick Pickaxe",
+      "item.badideasmod.coalarmorlegs": "Coal Armor Leggings",
+      "advancements.isthismilk.descr": "You drank what is supposedly milk! even I dont know what  it is",
+      "item.badideasmod.coalarmorbody": "Coal Armor Body",
+      "block.badideasmod.cookedchickenblock": "Cooked Chicken Block",
+      "biome.badideasmod.slimebione": "Slime Biome",
+      "key.mcreator.explode": "EXPLODE",
+      "block.badideasmod.hallucinatemushroomplant": "Hallucinate Mushroom Plant",
+      "item.badideasmod.thiswaythat": "This Way That",
+      "effect.bottleoflava": "Bottleof Lava",
+      "item.badideasmod.creeperarmorhelmet": "Creeper Armor Helmet",
+      "block.badideasmod.rawchickenblock": "Raw Chicken Block",
+      "item.minecraft.lingering_potion.effect.bottleoflava": "Lingering Bottleof Lava",
+      "item.badideasmod.reversepickaxe": "Diamond Stick Pickaxe",
+      "item.badideasmod.inthepipe": "Inthepipe",
+      "item.badideasmod.choice.desc": "The Best Part of Being a Real Person",
+      "block.badideasmod.cookedbeefblock2": "Cooked Beef Block2",
+      "item.badideasmod.grassarmorlegs": "Grass Armor Leggings",
+      "item.badideasmod.coalarmorhelmet": "Coal Armor Helmet",
+      "item.badideasmod.diamondhandeledwoodensword": "Diamond Handeled Wooden Sword",
+      "advancements.beemovie.descr": "https://www.youtube.com/watch?v\u003dlXMskKTw3Bc\u0026t",
+      "advancements.beemovie.title": "https://www.youtube.com/watch?v\u003dcv6a81Ulx-g",
+      "item.badideasmod.thiswaythat.desc": "mario party",
+      "item.badideasmod.stonehandeledwoodensword": "Stone Handeled Wooden Sword",
+      "item.badideasmod.grassarmorbody": "Grass Armor Body",
+      "itemGroup.tabbaditems": "Bad Items",
+      "fluid.lavamilk": "LavaMilk",
+      "item.badideasmod.slimearmorbody": "Slime Armor Body",
+      "item.minecraft.tipped_arrow.effect.bottleoflava": "Arrow of Bottleof Lava",
+      "item.badideasmod.creeperarmorlegs": "Creeper Armor Leggings",
+      "item.badideasmod.slimearmorlegs": "Slime Armor Leggings",
+      "fluid.drinkiblelava": "Drinkiblelava",
+      "item.badideasmod.mp3player": "MP3 Player",
+      "item.badideasmod.ironstickpickaxe": "Iron Stick Pickaxe",
+      "item.badideasmod.hallucinatemushroom": "Brown Mushroom\u0027",
+      "item.badideasmod.skillcrane.desc": "oh yeah woo yeah",
+      "block.badideasmod.rawmuttonblock": "Raw Mutton Block",
+      "block.badideasmod.rawbeefblock": "Raw Beef Block",
+      "item.badideasmod.slimearmorboots": "Slime Armor Boots",
+      "item.badideasmod.chickennuggets": "Chicken Nuggets",
+      "item.badideasmod.coalarmorboots": "Coal Armor Boots",
+      "item.minecraft.potion.effect.bottleoflava": "Bottleof Lava",
+      "item.badideasmod.creeperarmorbody": "Creeper Armor Body",
+      "biome.badideasmod.reversebiome": "REVERSEBIOME",
+      "item.badideasmod.choice": "Choice"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "badideasmod",
+    "modName": "BAD_IDEAS_MOD",
+    "version": "1.0.0",
+    "author": "Wildstone",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.14.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.wildstone_a.badideasmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

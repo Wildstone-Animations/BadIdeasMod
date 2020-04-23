@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "Bad Items",
+    "icon": {
+      "value": "Items.SKULL#0"
+    },
+    "showSearch": false
+  }
+}
