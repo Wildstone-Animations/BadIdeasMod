@@ -6,7 +6,7 @@
     "name": " SKILL CRANE",
     "description": "oh yeah woo yeah",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:BadItems"
     },
     "music": {
       "value": "CUSTOM:skillcrane"

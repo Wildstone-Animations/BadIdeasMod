@@ -9,9 +9,9 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 
+import com.wildstone_a.badideasmod.itemgroup.BadItemsItemGroup;
 import com.wildstone_a.badideasmod.BADIDEASMODElements;
 
 @BADIDEASMODElements.ModElement.Tag
@@ -29,7 +29,7 @@ public class SKILLCRANEItem extends BADIDEASMODElements.ModElement {
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
 			super(0, BADIDEASMODElements.sounds.get(new ResourceLocation("badideasmod:skillcrane")),
-					new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.RARE));
+					new Item.Properties().group(BadItemsItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("skillcrane");
 		}
 
